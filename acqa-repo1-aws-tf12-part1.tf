@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 # Create a VPC to launch our instances into
-resource "aws_vpc" "acqa-test-vpc1" {
+resource "aws_vpc" "acqa-test-vpc12" {
   cidr_block = "10.0.0.0/16"
   tags = {
     Name = format("%s-vpc1", var.acqaPrefix)
